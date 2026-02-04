@@ -1,4 +1,4 @@
-
+## Configuración de parametros de red.
 comandos 
 ip a 
 sudo su
@@ -18,7 +18,7 @@ nmcli device show
 
 cat /etc/resolv.conf
 
-# Gestion de Usuario y grupos
+## Gestion de Usuario y grupos
 sudo su
 adduser nombre_usuario
 
@@ -35,7 +35,7 @@ gpasswd -a nombre_usuario nombre_grupo
 
 id
 
-# Gestion de Permisos de archivos
+## Gestion de Permisos de archivos
 Crear carpeta y archivo
 mkdir materia
 cd materia
